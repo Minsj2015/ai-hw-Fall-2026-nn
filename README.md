@@ -88,7 +88,7 @@ No horizontal flips: a mirrored digit is a different (or invalid) symbol.
 pip install -r requirements.txt          # torch, torchvision, numpy, matplotlib
 
 # test the committed checkpoints on the official test split (MNIST downloads automatically)
-python src/test.py                       # all checkpoints, ~12 min on a CPU (--no-robustness: ~30 s)
+python src/test.py                       # all checkpoints, ~12 min on a CPU (--no-robustness: ~1 min)
 python src/test.py --ckpt checkpoints/cnn_full.pt
 
 # train (train split only); writes checkpoints/<model>_<aug>.pt and results/<run>/train_history.json
@@ -99,7 +99,7 @@ python src/train.py --model vit --aug full
 # everything: 8 training runs + testing
 ./run_all.sh                             # ~2 h on a 4-core CPU; PYTHON=/path/to/python ./run_all.sh
 
-# rebuild the slides from results/ (needs reportlab)
+# rebuild the slides from results/ (needs reportlab and a full test.py run, i.e. with robustness)
 python presentation/build_presentation.py
 ```
 

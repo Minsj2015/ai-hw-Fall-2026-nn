@@ -183,6 +183,10 @@ def load_results():
     with open(RESULTS / "significance.csv") as f:
         sig = {(r["run_a"], r["run_b"]): r for r in csv.DictReader(f)}
     metrics = {p.parent.name: json.loads(p.read_text()) for p in RESULTS.glob("*/metrics.json")}
+    missing = sorted(k for k, m in metrics.items() if "robustness" not in m)
+    if missing:
+        raise SystemExit(f"results for {', '.join(missing)} have no robustness numbers; "
+                         "run `python src/test.py` without --no-robustness first")
     return runs, sig, metrics
 
 
