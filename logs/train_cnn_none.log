@@ -1,0 +1,14 @@
+[cnn_none] 140,458 params | train 55000 / val 5000 | epochs=12 lr=0.003 wd=0.0005 aug=none
+[cnn_none] epoch  1/12 | train loss 1.0396 acc 0.8392 | val loss 0.2406 acc 0.9656 | 85s
+[cnn_none] epoch  2/12 | train loss 0.5976 acc 0.9846 | val loss 0.1714 acc 0.9798 | 70s
+[cnn_none] epoch  3/12 | train loss 0.5695 acc 0.9913 | val loss 0.1453 acc 0.9896 | 70s
+[cnn_none] epoch  4/12 | train loss 0.5584 acc 0.9930 | val loss 0.1574 acc 0.9916 | 62s
+[cnn_none] epoch  5/12 | train loss 0.5505 acc 0.9949 | val loss 0.1080 acc 0.9938 | 92s
+[cnn_none] epoch  6/12 | train loss 0.5454 acc 0.9960 | val loss 0.1221 acc 0.9938 | 83s
+[cnn_none] epoch  7/12 | train loss 0.5405 acc 0.9971 | val loss 0.1275 acc 0.9946 | 81s
+[cnn_none] epoch  8/12 | train loss 0.5365 acc 0.9977 | val loss 0.1074 acc 0.9960 | 88s
+[cnn_none] epoch  9/12 | train loss 0.5328 acc 0.9984 | val loss 0.1132 acc 0.9962 | 85s
+[cnn_none] epoch 10/12 | train loss 0.5302 acc 0.9988 | val loss 0.1134 acc 0.9948 | 75s
+[cnn_none] epoch 11/12 | train loss 0.5278 acc 0.9992 | val loss 0.1124 acc 0.9956 | 84s
+[cnn_none] epoch 12/12 | train loss 0.5271 acc 0.9993 | val loss 0.1132 acc 0.9954 | 66s
+[cnn_none] done in 15.7 min | best val acc 0.9962 (epoch 9) -> checkpoints/cnn_none.pt

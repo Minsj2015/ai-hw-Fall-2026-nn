@@ -1,0 +1,32 @@
+[mlp_full] 407,050 params | train 55000 / val 5000 | epochs=30 lr=0.001 wd=0.0001 aug=full
+[mlp_full] epoch  1/30 | train loss 1.6067 acc 0.5620 | val loss 0.6572 acc 0.8702 | 4s
+[mlp_full] epoch  2/30 | train loss 1.0515 acc 0.8010 | val loss 0.3254 acc 0.9424 | 4s
+[mlp_full] epoch  3/30 | train loss 0.8542 acc 0.8861 | val loss 0.2473 acc 0.9602 | 6s
+[mlp_full] epoch  4/30 | train loss 0.8011 acc 0.9081 | val loss 0.2167 acc 0.9672 | 4s
+[mlp_full] epoch  5/30 | train loss 0.7801 acc 0.9164 | val loss 0.1909 acc 0.9706 | 5s
+[mlp_full] epoch  6/30 | train loss 0.7616 acc 0.9229 | val loss 0.1714 acc 0.9754 | 5s
+[mlp_full] epoch  7/30 | train loss 0.7511 acc 0.9279 | val loss 0.1676 acc 0.9772 | 6s
+[mlp_full] epoch  8/30 | train loss 0.7395 acc 0.9326 | val loss 0.1542 acc 0.9782 | 6s
+[mlp_full] epoch  9/30 | train loss 0.7334 acc 0.9348 | val loss 0.1530 acc 0.9782 | 6s
+[mlp_full] epoch 10/30 | train loss 0.7285 acc 0.9368 | val loss 0.1430 acc 0.9784 | 4s
+[mlp_full] epoch 11/30 | train loss 0.7225 acc 0.9374 | val loss 0.1465 acc 0.9796 | 4s
+[mlp_full] epoch 12/30 | train loss 0.7195 acc 0.9398 | val loss 0.1471 acc 0.9784 | 4s
+[mlp_full] epoch 13/30 | train loss 0.7132 acc 0.9420 | val loss 0.1397 acc 0.9812 | 4s
+[mlp_full] epoch 14/30 | train loss 0.7124 acc 0.9418 | val loss 0.1438 acc 0.9808 | 4s
+[mlp_full] epoch 15/30 | train loss 0.7040 acc 0.9453 | val loss 0.1403 acc 0.9812 | 4s
+[mlp_full] epoch 16/30 | train loss 0.7029 acc 0.9451 | val loss 0.1406 acc 0.9812 | 5s
+[mlp_full] epoch 17/30 | train loss 0.6954 acc 0.9491 | val loss 0.1331 acc 0.9812 | 6s
+[mlp_full] epoch 18/30 | train loss 0.6939 acc 0.9486 | val loss 0.1300 acc 0.9834 | 6s
+[mlp_full] epoch 19/30 | train loss 0.6900 acc 0.9507 | val loss 0.1345 acc 0.9826 | 6s
+[mlp_full] epoch 20/30 | train loss 0.6863 acc 0.9513 | val loss 0.1309 acc 0.9826 | 6s
+[mlp_full] epoch 21/30 | train loss 0.6851 acc 0.9527 | val loss 0.1314 acc 0.9828 | 4s
+[mlp_full] epoch 22/30 | train loss 0.6809 acc 0.9530 | val loss 0.1289 acc 0.9840 | 4s
+[mlp_full] epoch 23/30 | train loss 0.6774 acc 0.9549 | val loss 0.1279 acc 0.9844 | 5s
+[mlp_full] epoch 24/30 | train loss 0.6752 acc 0.9552 | val loss 0.1276 acc 0.9840 | 6s
+[mlp_full] epoch 25/30 | train loss 0.6736 acc 0.9564 | val loss 0.1252 acc 0.9852 | 6s
+[mlp_full] epoch 26/30 | train loss 0.6722 acc 0.9554 | val loss 0.1257 acc 0.9844 | 7s
+[mlp_full] epoch 27/30 | train loss 0.6723 acc 0.9558 | val loss 0.1247 acc 0.9848 | 8s
+[mlp_full] epoch 28/30 | train loss 0.6708 acc 0.9565 | val loss 0.1243 acc 0.9854 | 6s
+[mlp_full] epoch 29/30 | train loss 0.6707 acc 0.9556 | val loss 0.1248 acc 0.9854 | 5s
+[mlp_full] epoch 30/30 | train loss 0.6713 acc 0.9565 | val loss 0.1248 acc 0.9854 | 4s
+[mlp_full] done in 2.6 min | best val acc 0.9854 (epoch 30) -> checkpoints/mlp_full.pt

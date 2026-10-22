@@ -1,0 +1,10 @@
+run_a,run_b,errors_a,errors_b,only_a_correct,only_b_correct,p_value
+mlp_none,mlp_affine,141,96,25,70,4.271012269463367e-06
+mlp_none,mlp_full,141,112,38,67,0.0060160815152493306
+cnn_none,cnn_affine,36,40,18,14,0.5966148958541453
+cnn_none,cnn_full,36,52,30,14,0.022628841205914796
+vit_none,vit_full,181,183,118,116,0.9478963504191705
+mlp_full,cnn_full,112,52,25,85,7.832215781945598e-09
+cnn_full,vit_full,52,183,154,23,5.368393661742227e-25
+mlp_full,vit_full,112,183,134,63,4.652502888302747e-07
+cnn_full,ensemble,52,63,30,19,0.15240777196147803

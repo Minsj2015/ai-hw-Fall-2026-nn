@@ -1,0 +1,22 @@
+[vit_full] 139,018 params | train 55000 / val 5000 | epochs=20 lr=0.001 wd=0.05 aug=full
+[vit_full] epoch  1/20 | train loss 2.0153 acc 0.2780 | val loss 1.6163 acc 0.3962 | 87s
+[vit_full] epoch  2/20 | train loss 1.5211 acc 0.5212 | val loss 0.8150 acc 0.7406 | 84s
+[vit_full] epoch  3/20 | train loss 1.1462 acc 0.7158 | val loss 0.4858 acc 0.8552 | 101s
+[vit_full] epoch  4/20 | train loss 0.9380 acc 0.8130 | val loss 0.3677 acc 0.8992 | 102s
+[vit_full] epoch  5/20 | train loss 0.8392 acc 0.8581 | val loss 0.2730 acc 0.9386 | 86s
+[vit_full] epoch  6/20 | train loss 0.7804 acc 0.8823 | val loss 0.2206 acc 0.9526 | 94s
+[vit_full] epoch  7/20 | train loss 0.7386 acc 0.9015 | val loss 0.2049 acc 0.9572 | 104s
+[vit_full] epoch  8/20 | train loss 0.7071 acc 0.9148 | val loss 0.2010 acc 0.9588 | 99s
+[vit_full] epoch  9/20 | train loss 0.6841 acc 0.9249 | val loss 0.2167 acc 0.9528 | 113s
+[vit_full] epoch 10/20 | train loss 0.6664 acc 0.9305 | val loss 0.1825 acc 0.9618 | 94s
+[vit_full] epoch 11/20 | train loss 0.6523 acc 0.9367 | val loss 0.1645 acc 0.9730 | 112s
+[vit_full] epoch 12/20 | train loss 0.6381 acc 0.9430 | val loss 0.1610 acc 0.9760 | 110s
+[vit_full] epoch 13/20 | train loss 0.6277 acc 0.9467 | val loss 0.1728 acc 0.9670 | 99s
+[vit_full] epoch 14/20 | train loss 0.6213 acc 0.9501 | val loss 0.1474 acc 0.9764 | 100s
+[vit_full] epoch 15/20 | train loss 0.6077 acc 0.9553 | val loss 0.1426 acc 0.9786 | 98s
+[vit_full] epoch 16/20 | train loss 0.6032 acc 0.9571 | val loss 0.1402 acc 0.9808 | 101s
+[vit_full] epoch 17/20 | train loss 0.5940 acc 0.9611 | val loss 0.1392 acc 0.9810 | 102s
+[vit_full] epoch 18/20 | train loss 0.5941 acc 0.9615 | val loss 0.1371 acc 0.9806 | 101s
+[vit_full] epoch 19/20 | train loss 0.5907 acc 0.9623 | val loss 0.1387 acc 0.9804 | 100s
+[vit_full] epoch 20/20 | train loss 0.5858 acc 0.9647 | val loss 0.1375 acc 0.9800 | 101s
+[vit_full] done in 33.1 min | best val acc 0.9810 (epoch 17) -> checkpoints/vit_full.pt

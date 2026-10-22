@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+matplotlib>=3.4
+# only for presentation/build_presentation.py
+reportlab

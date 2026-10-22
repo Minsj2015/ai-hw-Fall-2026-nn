@@ -1,0 +1,7 @@
+# dataset is downloaded automatically by torchvision on first run
+data/
+# local tool installs (git/gh) and caches
+.tools/
+__pycache__/
+*.pyc
+.DS_Store

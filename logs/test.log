@@ -1,0 +1,10 @@
+cnn_affine   test acc 0.9960 (40 errors) | val acc 0.9960 | 0.374 ms/image
+cnn_full     test acc 0.9948 (52 errors) | val acc 0.9936 | 0.338 ms/image
+cnn_none     test acc 0.9964 (36 errors) | val acc 0.9962 | 0.309 ms/image
+mlp_affine   test acc 0.9904 (96 errors) | val acc 0.9856 | 0.006 ms/image
+mlp_full     test acc 0.9888 (112 errors) | val acc 0.9854 | 0.005 ms/image
+mlp_none     test acc 0.9859 (141 errors) | val acc 0.9852 | 0.005 ms/image
+vit_full     test acc 0.9817 (183 errors) | val acc 0.9810 | 0.271 ms/image
+vit_none     test acc 0.9819 (181 errors) | val acc 0.9792 | 0.284 ms/image
+ensemble     test acc 0.9937 (63 errors) = mean softmax of mlp_full, cnn_full, vit_full
+wrote results/summary.md
